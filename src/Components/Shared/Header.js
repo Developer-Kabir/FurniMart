@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return (
@@ -6,7 +7,7 @@ const Header = () => {
             <nav class="custom-navbar navbar navbar navbar-expand-md navbar-dark" arial-label="Furni navigation bar">
 
 <div class="container">
-    <a class="navbar-brand" href="index.html">FurniMart</a>
+    <a class="navbar-brand" href="/">FurniMart</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsFurni" aria-controls="navbarsFurni" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -18,7 +19,7 @@ const Header = () => {
                 <a class="nav-link" href="index.html">Home</a>
             </li>
             <li><a class="nav-link" href="shop.html">Shop</a></li>
-            <li><a class="nav-link" href="about.html">About us</a></li>
+            <li><Link class="nav-link" to="/about">About us</Link></li>
             <li><a class="nav-link" href="services.html">Services</a></li>
             <li><a class="nav-link" href="blog.html">Blog</a></li>
             <li><a class="nav-link" href="contact.html">Contact us</a></li>

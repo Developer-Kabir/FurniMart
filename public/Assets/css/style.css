@@ -159,10 +159,10 @@ a {
           top: -40px; } }
 
 .btn {
-  font-weight: 600;
-  padding: 12px 30px;
-  border-radius: 30px;
-  color: #ffffff;
+  font-weight: 600 !important;
+  padding: 12px 30px !important;
+  border-radius: 30px !important;
+  color: #ffffff ;
   background: #2f2f2f;
   border-color: #2f2f2f; }
   .btn:hover {
@@ -184,10 +184,12 @@ a {
     background: #f9bf29;
     border-color: #f9bf29; }
     .btn.btn-secondary:hover {
+      color: #2f2f2f;
       background: #f8b810;
       border-color: #f8b810; }
   .btn.btn-white-outline {
     background: transparent;
+    color: white;
     border-width: 2px;
     border-color: rgba(255, 255, 255, 0.3); }
     .btn.btn-white-outline:hover {
@@ -433,6 +435,7 @@ a {
   .testimonial-slider-wrap .item .testimonial-block .author-info .author-pic {
     margin-bottom: 20px; }
     .testimonial-slider-wrap .item .testimonial-block .author-info .author-pic img {
+      margin: 0px auto;
       max-width: 80px;
       border-radius: 50%; }
   .testimonial-slider-wrap .item .testimonial-block .author-info h3 {
