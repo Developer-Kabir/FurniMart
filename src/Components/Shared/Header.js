@@ -22,7 +22,7 @@ const Header = () => {
             <li><Link class="nav-link" to="/about">About us</Link></li>
             <li><Link class="nav-link" to="/service">Services</Link></li>
             <li><a class="nav-link" href="blog.html">Blog</a></li>
-            <li><a class="nav-link" href="contact.html">Contact us</a></li>
+            <li><Link class="nav-link" to="/contact">Contact us</Link></li>
         </ul>
 
         <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
