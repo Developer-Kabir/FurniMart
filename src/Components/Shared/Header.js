@@ -27,7 +27,7 @@ const Header = () => {
 
         <ul class="custom-navbar-cta navbar-nav mb-2 mb-md-0 ms-5">
             <li><a class="nav-link" href="#"><img src="Assets/images/user.svg" alt=''/></a></li>
-            <li><a class="nav-link" href="cart.html"><img src="Assets/images/cart.svg" alt=''/></a></li>
+            <li><Link class="nav-link" to="/cart"><img src="Assets/images/cart.svg" alt=''/></Link></li>
         </ul>
     </div>
 </div>
