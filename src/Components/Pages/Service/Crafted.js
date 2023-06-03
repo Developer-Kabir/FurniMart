@@ -11,7 +11,7 @@ const Crafted = () => {
 					<div class="col-md-12 col-lg-3 mb-5 mb-lg-0">
 						<h2 class="mb-4 section-title">Crafted with excellent material.</h2>
 						<p class="mb-4">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. </p>
-						<p><a href="#" class="btn">Explore</a></p>
+						<p><a href="" class="btn btn-secondary">Explore</a></p>
 					</div> 
 			
 					<div class="col-12 col-md-4 col-lg-3 mb-5 mb-md-0">
